@@ -2,7 +2,7 @@
 // container
 .container {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width : calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -10,7 +10,7 @@
     @extend %clearfix;
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width : calc(#{$content-width} - (#{$spacing-unit}));
+        max-width: calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -252,6 +252,10 @@
     }
     a:hover i.fa-vk {
         background-color: #507299;
+        color: #fff;
+    }
+    a:hover i.fa-telegram {
+        background-color: #0087CC;
         color: #fff;
     }
 }
