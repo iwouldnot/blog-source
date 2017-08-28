@@ -1,0 +1,24 @@
+# Site settings
+title: iwouldnot's blog
+email: iwdnot@gmail.com
+description: Personal blog
+url: "http://iwouldnot.me"
+
+author:
+  name     : 'Ivan Vaniushin'
+  email    : iwdnot@gmail.com
+  url      : http://iwouldnot.me
+
+github: https://github.com/iwouldnot/iwouldnot.github.io
+
+paginate: 2
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
