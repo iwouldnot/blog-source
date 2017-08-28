@@ -5,8 +5,7 @@ require "bundler/setup"
 require "jekyll"
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "iwouldnot/blog-source"
-GITHUB_REPO_BRANCH = "gh-pages"
+GITHUB_REPONAME = "iwouldnot/iwouldnot.github.io"
 
 namespace :site do
   desc "Generate blog files"
@@ -30,8 +29,8 @@ namespace :site do
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
-      system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-      system "git push origin master:refs/heads/#{GITHUB_REPO_BRANCH} --force"
+      system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
+      system "git push origin master --force"
 
       Dir.chdir pwd
     end
