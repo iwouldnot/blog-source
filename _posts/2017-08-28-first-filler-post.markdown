@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Импорт ми бейби ван мор тайм"
+title:  "Импорт ми бейби уан мор тайм"
 date:   2017-08-28 23:53:43
 categories: DS, ML, tutorial
 comments: true
