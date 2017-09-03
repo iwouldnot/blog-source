@@ -12,6 +12,7 @@ author:
   telegram : https://t.me/iwouldnot
 
 disqus_shortname: "iwdnot-blog"
+google_analytics: UA-105831298-1
 github: https://github.com/iwouldnot/iwouldnot.github.io
 
 paginate: 4
@@ -24,5 +25,4 @@ sass:
 
 # Build settings
 markdown: kramdown
-  
 permalink : /:title/
