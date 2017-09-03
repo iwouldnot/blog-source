@@ -2,18 +2,20 @@
 title: iwouldnot's blog
 email: iwdnot@gmail.com
 description: Personal blog
-url: "http://iwouldnot.me"
+url: "https://iwouldnot.me"
 
 author:
   name     : 'Ivan Vaniushin'
   email    : iwdnot@gmail.com
-  url      : http://iwouldnot.me/
+  url      : https://iwouldnot.me
   vk       : https://vk.com/iwouldnot
   telegram : https://t.me/iwouldnot
 
+disqus_shortname: "iwdnot-blog"
+google_analytics: UA-105831298-1
 github: https://github.com/iwouldnot/iwouldnot.github.io
 
-paginate: 2
+paginate: 4
 comments: true
 paginate_path: "/page/:num"
 
@@ -22,5 +24,5 @@ sass:
   sass_dir: _sass
 
 # Build settings
-markdown  : kramdown
+markdown: kramdown
 permalink : /:title/
