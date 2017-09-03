@@ -4,8 +4,10 @@ This blog is so tremenous, that it doesn't even have any special concept or idea
 
 Occasionally, this is the source of this tremendous blog. 
 
-Actual link is [https://iwouldnot.me/]
+Actual link to blog is [here](https://iwouldnot.me/ "iwouldnot's blog")
 
-Actuas build is [https://github.com/iwouldnot/iwouldnot.github.io/]
+Actual build is [here](https://github.com/iwouldnot/iwouldnot.github.io/)
+
+Current HTML+Jekyll sources are [here](https://github.com/iwouldnot/iwouldnot.github.io/)
 
 That's it. Have fun!
